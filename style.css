@@ -28,6 +28,7 @@ img {
   height: 100%;
   background: #4b4276;
   position: fixed;
+  width: 18%;
 }
 
 .wrapper .sidebar h2{
@@ -47,10 +48,7 @@ img {
 .wrapper .sidebar ul li a{
   color: #bdb8d7;
   display: block;
-}
-
-.wrapper .sidebar ul li a .fas{
-  width: 25px;
+  width: 80%;
 }
 
 .wrapper .sidebar ul li:hover{
