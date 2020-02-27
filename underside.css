@@ -53,6 +53,12 @@ img {
   width: 25px;
 }
 
+.wrapper .sidebar ul li a .fas fa-shopping-cart {
+color: yellow;
+}
+
+
+
 .wrapper .sidebar ul li:hover{
   background-color: #594f8d;
 }
