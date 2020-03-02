@@ -13,6 +13,13 @@ body{
    background-color: #f3f5f9;
 }
 
+.img-banner { /* webshop: banner - portræt */
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-left: 300px;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -81,4 +88,3 @@ img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
