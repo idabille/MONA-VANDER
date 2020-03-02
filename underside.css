@@ -20,9 +20,10 @@ body{
   margin-left: 280px;
   margin-top: 0;
   margin-right: 0;
+  margin-bottom: 100px;
 }
 
-.card {
+.card { /* pruduct card */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -50,14 +51,10 @@ body{
 .card button:hover {
   opacity: 0.7;
 }
-.produck_1 {
-width:100%;
-}
 
-img {
-  width: 100px;
-  height: 100px;
-  margin: 30px 0 30px 75px;
+.produkt_1 { /*produkt 1 - lyserød kop billede */
+  width: 300px;
+  height: 100%;
 }
 
 .wrapper{
