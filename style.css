@@ -13,10 +13,6 @@ body{
    background-color: #f3f5f9;
 }
 
-.img-banner { /* banner: portræt, tekstlogo, fade-buttom */
-  max-width: 100%;
-  position: center;
-}
 
 img {
   width: 100px;
