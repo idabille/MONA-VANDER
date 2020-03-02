@@ -14,7 +14,7 @@ body{
 }
 
 .img-banner { /* webshop: banner - portræt */
-  max-width: 100%;
+  width: 400px;
   height: 400px;
   position: relative;
   margin-left: 300px;
