@@ -82,5 +82,7 @@ img {
 
 .mySlides {
   display:none;
+  width: 525px;
+  height: 454px;
 }
 
