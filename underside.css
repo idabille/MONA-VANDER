@@ -13,10 +13,71 @@ body{
    background-color: #f3f5f9;
 }
 
-img {
+/* logo billede*/
+.logo {
   width: 100px;
   height: 100px;
   margin: 30px 0 30px 75px;
+}
+
+.img-banner { /* webshop: banner - portræt */
+  width: auto;
+  height: 400px;
+  position: relative; /* relative = det er en del af "tegnebrættet" -> "absolut" = ligesom hvis det sidder på skærmen i en låst position - andre elementer hopper ind under */
+  margin-left: 18%; /* banneret starter fra menubaren + responsiv ->
+  (rediger i photoshop med nyt billede fra Mona Vander) */
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 100px;
+}
+
+.headline_produkt {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 20%;
+}
+
+.flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card { /* pruduct card */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.produkt_1 { /*produkt 1 - billeder */
+  width: 300px;
+  height: 100%;
 }
 
 .wrapper{
@@ -81,4 +142,3 @@ img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
